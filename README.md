@@ -30,3 +30,16 @@ To run the notebook, ensure you have a Python 3 environment with the following p
 
 ```bash
 pip install jax jaxlib scipy numpy matplotlib seaborn
+```
+
+## 🚀 UsageClone the repository
+
+Open the mga_optimization.ipynb notebook.Run all cells. The script will automatically:Create data/, figures/, and tables/ directories if they do not exist.
+
+Execute the Differential Evolution algorithm on the GPU.Run the DOP853 cross-validation on the CPU.
+Plot and save the trajectory topologies, energy evolution, and trade-off comparisons into the figures/ folder.
+Export the astrodynamical metrics to LaTeX files in the tables/ folder.
+
+## 📊 OutputsThe framework generates several analytical visualizations:Cross-Validation Plot: Proves the physical robustness of the GPU solutions against integration artifacts.Energy Evolution: Demonstrates the successive specific energy depletion (pump-down) during internal serpentining.Propulsive Trade-offs: Compares phasing correction costs ($\Delta v_{corr}$) versus arrival excess velocity ($v_\infty$).Topological Maps: 2D scatter plots of the spacecraft traversing the multi-moon system.
+
+## 📄 LicenseThis project is licensed under the Apache License 2.0 - see the LICENSE file for details.
