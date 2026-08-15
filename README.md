@@ -40,6 +40,10 @@ Execute the Differential Evolution algorithm on the GPU.Run the DOP853 cross-val
 Plot and save the trajectory topologies, energy evolution, and trade-off comparisons into the figures/ folder.
 Export the astrodynamical metrics to LaTeX files in the tables/ folder.
 
-## 📊 OutputsThe framework generates several analytical visualizations:Cross-Validation Plot: Proves the physical robustness of the GPU solutions against integration artifacts.Energy Evolution: Demonstrates the successive specific energy depletion (pump-down) during internal serpentining.Propulsive Trade-offs: Compares phasing correction costs ($\Delta v_{corr}$) versus arrival excess velocity ($v_\infty$).Topological Maps: 2D scatter plots of the spacecraft traversing the multi-moon system.
+## 📊 OutputsThe framework generates several analytical visualizations
 
-## 📄 LicenseThis project is licensed under the Apache License 2.0 - see the LICENSE file for details.
+Cross-Validation Plot: Proves the physical robustness of the GPU solutions against integration artifacts.Energy Evolution: Demonstrates the successive specific energy depletion (pump-down) during internal serpentining.Propulsive Trade-offs: Compares phasing correction costs ($\Delta v_{corr}$) versus arrival excess velocity ($v_\infty$).Topological Maps: 2D scatter plots of the spacecraft traversing the multi-moon system.
+
+## 📄 License
+
+This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
